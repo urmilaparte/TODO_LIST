@@ -1,0 +1,75 @@
+
+
+
+body {
+    background: linear-gradient(to right, rgb(164, 30, 52), rgb(189, 118, 189), rgb(81, 131, 81), rgb(138, 138, 8), rgb(223, 166, 62));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.input {
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.task {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.box {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    list-style: none;
+    padding: 0;
+}
+
+.box li {
+    background-color: rgb(25, 178, 198);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit, .delete {
+    margin-left: 10px;
+    background-color: #d9534f; 
+}
+
+.edit {
+    background-color: #5bc0de; 
+}
